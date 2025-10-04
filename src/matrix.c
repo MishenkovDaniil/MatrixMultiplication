@@ -224,7 +224,7 @@ void matrix_print_row(int *row, const size_t len)
     assert(row);
     for(size_t i = 0; i < len; ++i)
     {
-        printf("%d \t", row[i]);
+        printf("%d\t", row[i]);
     }
     printf("\n");
 }
